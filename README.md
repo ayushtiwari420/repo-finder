@@ -1,42 +1,103 @@
-# 🚀 GitGrade - AI-Powered Repository Analyzer
+# Repository Analyzer
 
-**GitGrade** is an intelligent developer tool that audits GitHub repositories using **Google Gemini AI**. It provides a comprehensive score, detailed code quality analysis, critical issue detection, and a personalized roadmap to help developers improve their projects.
+A powerful tool to analyze GitHub repositories and gain insights into code quality, contributors, commit history, and project statistics. Perfect for evaluating repositories and understanding project health.
 
-![GitGrade Demo](https://via.placeholder.com/800x400.png?text=Add+Your+Screenshot+Here)
-*(Replace this link with a screenshot of your dashboard later!)*
+## 🔍 Features
 
----
-
-## ✨ Key Features
-
-- **⚡ Instant Analysis:** Analyzes repository structure, file quality, and documentation in seconds.
-- **🎯 Smart Scoring:** Generates a **0-100 Score** and **Letter Grade** (A-F) based on industry standards.
-- **🔍 Deep Dive Inspection:** Identifies **Critical Issues** and provides file-level breakdowns.
-- **🛣️ Personalized Roadmap:** Creates a step-by-step action plan to upgrade the repository.
-- **🎨 Modern UI:** A responsive, dark-mode interface with animated gauges and interactive cards.
-
----
+- **Repository Analysis**: Get comprehensive statistics about any repository
+- **Code Metrics**: Analyze code quality and complexity
+- **Contributor Insights**: Track and analyze contributor activity
+- **Commit History**: Visualize project development timeline
+- **Language Distribution**: See the tech stack composition
+- **Repository Health**: Overall project health assessment
+- **Activity Trends**: Track project activity over time
+- **Fork and Star Statistics**: Monitor project popularity
 
 ## 🛠️ Tech Stack
 
-### **Frontend**
-- **React.js** (Component-based UI)
-- **Framer Motion** (Smooth animations)
-- **CSS3** (Responsive Grid & Flexbox layouts)
-- **React Router** (SPA Navigation)
+- **Frontend**: JavaScript, React
+- **API Integration**: GitHub API
+- **Data Visualization**: Charts and graphs
+- **Backend**: Node.js (if applicable)
 
-### **Backend**
-- **Node.js & Express.js** (API Server)
-- **Google Gemini 1.5 Flash/Pro** (Generative AI)
-- **GitHub API** (Repository Data Fetching)
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ayushtiwari420/repo-analyzer.git
+
+# Navigate to the project directory
+cd repo-analyzer
+
+# Install dependencies
+npm install
+
+# Set up GitHub API token
+# Create a .env file and add your GitHub token
+echo "GITHUB_TOKEN=your_token_here" > .env
+
+# Start the application
+npm start
+```
+
+## 🚀 Usage
+
+### Basic Analysis
+1. Enter a GitHub repository URL or search for a repo
+2. Click "Analyze" to start analysis
+3. View comprehensive statistics
+
+### Key Metrics Analyzed
+- **Commits**: Total commits and commit frequency
+- **Contributors**: Active contributors and their contributions
+- **Languages**: Primary programming languages used
+- **Code Quality**: Indicators of code health
+- **Stars & Forks**: Popularity metrics
+- **Issues**: Open and closed issues
+- **Pull Requests**: PR statistics and trends
+
+### Example
+```
+Repository: facebook/react
+- Language: JavaScript
+- Stars: 200K+
+- Contributors: 1000+
+- Activity: Highly Active
+```
+
+## 📊 Features Breakdown
+
+- **Dashboard**: Overview of repository metrics
+- **Contributors Page**: Detailed contributor statistics
+- **Timeline**: Commit history visualization
+- **Language Chart**: Tech stack composition
+- **Statistics**: Comprehensive metrics and trends
+
+## 🔗 API Integration
+
+Uses GitHub REST API to fetch:
+- Repository metadata
+- Commit history
+- Contributor information
+- Issue and PR data
+- Release information
+
+## 🌟 Use Cases
+
+- Evaluate project quality before contributing
+- Monitor project health and activity
+- Analyze team productivity
+- Research open-source project trends
+- Make informed decisions about dependencies
+
+## 🤝 Contributing
+
+Contributions are welcome! Help us improve repository analysis and insights.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
 
 ---
 
-## ⚙️ Installation & Setup
-
-Follow these steps to run the project locally.
-
-### **1. Clone the Repository**
-```bash
-git clone [https://github.com/yourusername/gitgrade-hackathon.git](https://github.com/yourusername/gitgrade-hackathon.git)
-cd gitgrade-hackathon
+**Analyze repositories with powerful insights! 📊**
